@@ -1,5 +1,8 @@
 {
     "pages": [
+        "pages/product/product",
+        "pages/knowledge/knowledge",
+        "pages/plan/plan",
         "pages/index/index"
     ],
     "window": {
@@ -7,5 +10,36 @@
         "navigationBarTextStyle": "black",
         "navigationBarTitleText": "智能小程序",
         "backgroundTextStyle": "light"
+    },
+    "dynamicLib": {
+        "smartUI": {
+            "provider": "smart-ui"
+        }
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/product/product",
+                "text": "找产品",
+                "iconPath":"/images/ss2.png",
+                "selectedIconPath":"/images/ss2.png"
+            },
+            {
+                "pagePath": "pages/knowledge/knowledge",
+                "text": "学知识",
+                "iconPath":"/images/zs.png",
+                "selectedIconPath":"/images/zs.png"
+            },
+            {
+                "pagePath": "pages/plan/plan",
+                "text": "配方案",
+                "iconPath":"/images/fn3.png",
+                "selectedIconPath":"/images/fn3.png"
+            }
+        ],
+        "backgroundColor" : "#ffffff",
+        "borderStyle": "white",
+        "color": "#777",
+        "selectedColor": "#000"
     }
 }

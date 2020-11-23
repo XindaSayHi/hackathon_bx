@@ -1,0 +1,39 @@
+<view class="container">
+    <view class="smt-card-area">
+        <smt-search-bar class="area-content"
+            searchIconColor="#76a6ef"
+            search-bar-class="default-external-container"
+            search-bar-content-class="default-external-content"
+            search-icon-class="default-external-icon"
+            search-input-class="external-search-input"
+            search-text-class="external-search-text"
+            placeholder="产品名称或公司名称"
+            theme="default"/>
+    </view>
+
+    <smt-filter-header
+        border="{{false}}"
+        font-color="#666"
+        icon-color="#666"
+        selections="{{headerList.selections}}"
+        filter-id="{{1}}"
+    />
+
+    <view class="list-box">
+        <view class="list-item" s-for="item, index in bxlist">
+            <view class="list-item-img-box">
+                <image class="list-item-img" src="../../images/remote-team.png"></image>
+                <view class="list-item-img-txt">{{item.company}}</view>
+            </view>
+            <view class="list-item-content">
+                <view class="top">
+                    <view class="list-item-title">{{item.title}}</view>
+                    <view class="list-item-label">重疾险</view>
+                </view>
+                <view class="bottom">
+                    <text s-for="txt,idx in item.advantagesArr"> {{txt}} {{idx < 2 ? '|' : ''}} </text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
