@@ -1,0 +1,29 @@
+.container {
+    padding: 0;
+}
+.item {
+    width: 650rpx;
+    margin: 20rpx auto;
+    padding: 20rpx;
+    box-shadow: 1rpx 1rpx 5rpx #999;
+}
+.item-icon {
+    font-size: 20rpx;
+    color: #fff;
+    background: #1d69c6;
+    padding: 2rpx 10rpx;
+    width: 50rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+    text-align: center;
+    border-radius: 5rpx;
+}
+.title {
+    font-size: 26rpx;
+    margin: 20rpx 0rpx 40rpx;
+    font-weight: 900;
+}
+.content {
+    font-size: 24rpx;
+    color: #666;
+}

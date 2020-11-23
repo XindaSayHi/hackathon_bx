@@ -1,3 +1,7 @@
 <view class="container">
-    <!--to do-->
+    <view class="item" s-for="item, index in list">
+        <view class="item-icon">文章</view>
+        <view class="title">{{item.aTitle}}</view>
+        <view class="content">{{item.aDesc}}</view>
+    </view>
 </view>

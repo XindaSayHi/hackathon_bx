@@ -1,4 +1,4 @@
-[
+export const list = [
     {
       "aTitle": "河南豫健保，69元保100万，值得买吗？",
       "aDesc": "河南豫健保值得买吗？"

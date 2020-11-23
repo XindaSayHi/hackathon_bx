@@ -1,6 +1,8 @@
+import {list} from '../../data/artical';
+
 Page({
     data: {
-
+        list: list,
     },
     onLoad: function () {
         // 监听页面加载的生命周期函数
