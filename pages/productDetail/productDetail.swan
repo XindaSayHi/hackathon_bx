@@ -1,0 +1,42 @@
+<view class="container">
+    <view class="list-box">
+        <view class="top">
+            <view class="list-item-title">{{bxlist.title}}</view>
+            <view class="list-item-label">{{bxlist.company}} | 重疾险</view>
+        </view>
+        <view class="list-item">
+            <view class="list-item-content">
+                <view class="bottom">
+                    <text s-for="txt,idx in bxlist.advantagesArr" class='top-text'> {{txt}} {{idx < 2 ? '|' : ''}} </text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='to-protect'>
+        <view class='to-protect-title'>保什么？</view>
+        <view class='border'></view>
+        <view s-for="item,key in bxlist.canArr" class='rule-contain'>
+            <view class='rule-tip'>{{item.name}}</view><view class='rule-text'>{{item.desc}}</view>
+        </view>
+    </view>
+    <view class='not-protect'>
+        <view class='not-protect-title'>不保什么？</view>
+        <view class='border'></view>
+        <view s-for="item,key in bxlist.cannotArr"  class='rule-text'>{{item}}</view>
+    </view>
+    <view class='rules' >
+        <view class='rule-title'>投保规则</view>
+        <view class='border'></view>
+        <view s-for="item,key in bxlist.rule" class='rule-contain'>
+            <view class='rule-tip'>{{key}}</view><view class='rule-text'>{{item}}</view>
+        </view>
+    </view>
+    <view class='ill-kinds'>
+        <view class='ill-kinds-title'>包含疾病</view>
+        <view class='border'></view>
+        <view s-for="item,key in bxlist.illKinds" class='ill-kinds-contain'>
+            <view class='ill-kinds-tip'>{{key}}</view>
+            <view class='ill-kinds-text' s-for="date in item" >{{date}}</view>
+        </view>
+    </view>
+</view>

@@ -20,20 +20,22 @@
     />
 
     <view class="list-box">
-        <view class="list-item" s-for="item, index in bxlist">
-            <view class="list-item-img-box">
-                <image class="list-item-img" src="../../images/remote-team.png"></image>
-                <view class="list-item-img-txt">{{item.company}}</view>
-            </view>
-            <view class="list-item-content">
-                <view class="top">
-                    <view class="list-item-title">{{item.title}}</view>
-                    <view class="list-item-label">重疾险</view>
+        <view class="list-item" s-for="item, index in bxlist" bindtap="navigateTo(item)">
+            <navigator class='navigate-contain' target="self" open-type="navigate" url="/pages/productDetail/productDetail">
+                <view class="list-item-img-box">
+                    <image class="list-item-img" src="../../images/remote-team.png"></image>
+                    <view class="list-item-img-txt">{{item.company}}</view>
                 </view>
-                <view class="bottom">
-                    <text s-for="txt,idx in item.advantagesArr"> {{txt}} {{idx < 2 ? '|' : ''}} </text>
+                <view class="list-item-content">
+                    <view class="top">
+                        <view class="list-item-title">{{item.title}}</view>
+                        <view class="list-item-label">重疾险</view>
+                    </view>
+                    <view class="bottom">
+                        <text s-for="txt,idx in item.advantagesArr"> {{txt}} {{idx < 2 ? '|' : ''}} </text>
+                    </view>
                 </view>
-            </view>
+            </navigator>
         </view>
-    </view>
+    </view>       
 </view>

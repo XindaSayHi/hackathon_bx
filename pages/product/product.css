@@ -165,3 +165,9 @@
     color: #666;
     margin-top: 36rpx;
 }
+.navigate-contain{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}

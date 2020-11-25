@@ -1,9 +1,11 @@
 {
     "pages": [
-        "pages/knowledge/knowledge",
+        "pages/productDetail/productDetail",
         "pages/product/product",
+        "pages/knowledge/knowledge",
         "pages/plan/plan",
         "pages/index/index"
+
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",
