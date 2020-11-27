@@ -20,7 +20,7 @@
     />
 
     <view class="list-box">
-        <view class="list-item" s-for="item, index in bxlist" bindtap="navigateTo(item)">
+        <view class="list-item" s-for="item, index in bxlist" bindtap="navigateTo(item)" >
             <navigator class='navigate-contain' target="self" open-type="navigate" url="/pages/productDetail/productDetail">
                 <view class="list-item-img-box">
                     <image class="list-item-img" src="../../images/remote-team.png"></image>
@@ -37,5 +37,5 @@
                 </view>
             </navigator>
         </view>
-    </view>       
+    </view>
 </view>

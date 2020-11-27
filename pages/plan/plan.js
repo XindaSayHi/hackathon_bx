@@ -25,5 +25,11 @@ Page({
     },
     onShareAppMessage: function () {
         // 用户点击右上角转发
+    },
+    makePhoneCall() {
+        console.log('makePhoneCall');
+        swan.makePhoneCall({
+            phoneNumber: '400-8888-8888'
+        });
     }
 });

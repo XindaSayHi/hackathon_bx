@@ -1,0 +1,20 @@
+.container {
+    padding: 30rpx 0 0;
+}
+.plan-title {
+    font-size: 38rpx;
+    margin-top: 100rpx;
+    margin-bottom: 100rpx;
+}
+.img {
+    width: 700rpx;
+}
+
+.btn {
+    position: fixed;
+    bottom: 66rpx;
+    background: #1d69c6;
+    color: #fff;
+    padding: 0rpx 236rpx;
+    border-radius: 10rpx;
+}
