@@ -1,6 +1,6 @@
 <view class="container">
     <view class="plan-title">1对1家庭保险方案定制</view>
     <image class="img" src="../../images/11.png"></image>
-    <!-- <view class="btn">免费咨询</view> -->
+    <!-- <view class="btn" bind:tap="makePhoneCall">免费咨询</view> -->
     <button class="btn" bind:tap="makePhoneCall" type="primary" hover-stop-propagation="true">免费咨询</button>
 </view>

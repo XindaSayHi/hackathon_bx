@@ -1,0 +1,15 @@
+.top {
+    width: 750rpx;
+    height: 745rpx;
+}
+.container {
+    background: #f3f4f6;
+    height: 100vh;
+}
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 750rpx;
+    height: 237rpx;
+}

@@ -28,8 +28,11 @@ Page({
     },
     makePhoneCall() {
         console.log('makePhoneCall');
-        swan.makePhoneCall({
-            phoneNumber: '400-8888-8888'
+        // swan.makePhoneCall({
+        //     phoneNumber: '400-8888-8888'
+        // });
+        swan.navigateTo({
+            url: '/pages/im/im'
         });
     }
 });

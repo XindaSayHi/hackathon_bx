@@ -18,6 +18,17 @@
     text-align: center;
     border-radius: 5rpx;
 }
+.item-icon-hb {
+    font-size: 20rpx;
+    color: #fff;
+    background: #dd3737;
+    padding: 2rpx 10rpx;
+    width: 100rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    text-align: center;
+    border-radius: 5rpx;
+}
 .title {
     font-size: 26rpx;
     margin: 20rpx 0rpx 40rpx;
@@ -26,4 +37,14 @@
 .content {
     font-size: 24rpx;
     color: #666;
+}
+.hb {
+    width: 650rpx;
+    height: 640rpx;
+    border-radius: 16rpx;
+}
+.title-hb {
+    font-size: 34rpx;
+    margin: 20rpx 0rpx 20rpx;
+    font-weight: 900;
 }

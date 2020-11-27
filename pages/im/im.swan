@@ -1,0 +1,4 @@
+<view class="container">
+    <image src="../../images/imt.png" class="top"></image>
+    <image src="../../images/imb.png" class="bottom"></image>
+</view>

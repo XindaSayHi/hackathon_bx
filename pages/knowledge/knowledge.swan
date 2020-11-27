@@ -1,4 +1,9 @@
 <view class="container">
+    <view class="item">
+        <view class="item-icon-hb">正在直播</view>
+        <view class="title-hb">保险小白防坑课程</view>
+        <image src="../../images/haibao5.png" class="hb"></image>
+    </view>
     <view class="item" s-for="item, index in list">
         <view class="item-icon">文章</view>
         <view class="title">{{item.aTitle}}</view>
